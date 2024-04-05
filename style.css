@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  display: flex;
+  background-color: black;
+  color: white;
+  height: 70px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav a {
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+  padding: 0px 30px;
+}
+
+.ul {
+  list-style: none;
+  font-size: 20px;
+  display: none;
+}
+
+nav a :hover {
+  .ul {
+    display: block;
+    color: white;
+  }
+}
